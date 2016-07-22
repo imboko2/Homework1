@@ -9,7 +9,7 @@ body {
 .name {
     padding-top: 50px;
     margin-bottom: 30px;
-    margin-left: 264px;
+    text-align: center;
     text-transform: uppercase;
     color: rgb(1, 1, 1);
     font-family: Arial,sans-serif;
@@ -88,6 +88,7 @@ li {
     font-family: "Myriad Pro", sans-serif;
     font-size: 14px;
     font-weight: 400;
+    font-style: italic;
     text-decoration: underline;
 }
 
