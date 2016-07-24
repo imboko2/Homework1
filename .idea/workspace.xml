@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfacabb8-44f1-4911-8052-fd00dabc5456" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT1.html" afterPath="$PROJECT_DIR$/GoIT1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Styles.css" afterPath="$PROJECT_DIR$/css/Styles.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="Homework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -230,12 +229,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469352518784</updated>
-      <workItem from="1469352521006" duration="3812000" />
+      <workItem from="1469352521006" duration="3878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3812000" />
+    <option name="totallyTimeSpent" value="3878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
