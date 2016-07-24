@@ -1,11 +1,10 @@
-.resume {
-    height: 1024px;
-    width: 1024px;
+body {
     background-color: #F3F3F5;
 }
 .container {
-    margin: 0 264px;
     width: 500px;
+    margin: 0 auto;
+    padding-bottom: 255px;
 }
        /*HEADER*/
 .name {
@@ -20,7 +19,7 @@
 }
 
 .photo {
-    margin-left: 148px;
+    text-align: center;
 }
         /*INFO*/
 .work {
@@ -43,7 +42,6 @@
 
 .study {
     padding-bottom: 25px;
-    font-family: "Myriad Pro", sans-serif;
     color: rgb(31, 31, 31);
     font-size: 18px;
     font-weight: 700;
@@ -57,19 +55,18 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    font-family: "Myriad Pro", sans-serif;
 }
 
 li {
     line-height: 18px;
 }
 
-.number {padding-bottom: 20px;
-    margin-left: 40px;
+.number, .contact, .feedback, .list, .study {
     font-family: "Myriad Pro", sans-serif;
-    color: rgb(58, 58, 58);
-    font-size: 14px;
-    font-weight: 400;
+}
+
+.number {
+    padding-bottom: 20px;
 }
 
 .separator_2 {
@@ -83,16 +80,14 @@ li {
 .contact {
     margin-left: 40px;
     color: rgb(0, 86, 211);
-    font-family: "Myriad Pro", sans-serif;
     font-size: 14px;
     font-weight: 400;
     font-style: italic;
     text-decoration: underline;
 }
         /* FEEDBACK*/
-.feedback {
+.feedback, .number {
     margin-left: 40px;
-    font-family: "Myriad Pro", sans-serif;
     color: rgb(58, 58, 58);
     font-size: 14px;
     font-weight: 400;
