@@ -1,11 +1,12 @@
 body {
     height: 1024px;
     width: 1024px;
-    /*margin: 0 auto;*/
 }
-
+.container {
+    margin: 0 264px;
+    width: 500px;
+}
        /*HEADER*/
-
 .name {
     padding-top: 50px;
     margin-bottom: 30px;
@@ -18,13 +19,10 @@ body {
 }
 
 .photo {
-    margin-left: 412px;
+    margin-left: 148px;
 }
-
         /*INFO*/
-
 .work {
-    margin-left: 264px;
     padding-top: 22px;
     height: 13px;
     opacity: 0.8;
@@ -35,7 +33,7 @@ body {
 }
 
 .separator_1 {
-    margin: 20px 264px;
+    margin: 20px 0;
     width: 500px;
     height: 1px;
     opacity: 0.22;
@@ -44,7 +42,6 @@ body {
 
 .study {
     padding-bottom: 25px;
-    margin-left: 264px;
     font-family: "Myriad Pro", sans-serif;
     color: rgb(31, 31, 31);
     font-size: 18px;
@@ -54,7 +51,7 @@ body {
 .list {
     list-style-type: disc;
     display: list-item;
-    margin-left: 304px;
+    margin-left: 40px;
     color: rgb(59, 59, 59);
     font-size: 14px;
     font-weight: 400;
@@ -67,7 +64,7 @@ li {
 }
 
 .number {padding-bottom: 20px;
-    margin-left: 304px;
+    margin-left: 40px;
     font-family: "Myriad Pro", sans-serif;
     color: rgb(58, 58, 58);
     font-size: 14px;
@@ -75,7 +72,7 @@ li {
 }
 
 .separator_2 {
-    margin: 20px 264px;
+    margin: 20px 0;
     width: 500px;
     height: 1px;
     opacity: 0.2;
@@ -83,7 +80,7 @@ li {
 }
 
 .contact {
-    margin-left: 304px;
+    margin-left: 40px;
     color: rgb(0, 86, 211);
     font-family: "Myriad Pro", sans-serif;
     font-size: 14px;
@@ -95,7 +92,7 @@ li {
         /* FEEDBACK*/
 
 .feedback {
-    margin-left: 304px;
+    margin-left: 40px;
     font-family: "Myriad Pro", sans-serif;
     color: rgb(58, 58, 58);
     font-size: 14px;
