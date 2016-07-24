@@ -1,6 +1,7 @@
-body {
+.resume {
     height: 1024px;
     width: 1024px;
+    background-color: #F3F3F5;
 }
 .container {
     margin: 0 264px;
@@ -88,9 +89,7 @@ li {
     font-style: italic;
     text-decoration: underline;
 }
-
         /* FEEDBACK*/
-
 .feedback {
     margin-left: 40px;
     font-family: "Myriad Pro", sans-serif;
