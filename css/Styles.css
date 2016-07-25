@@ -4,12 +4,12 @@ body {
 .container {
     width: 500px;
     margin: 0 auto;
-    padding-bottom: 255px;
+    padding-bottom: 275px;
 }
        /*HEADER*/
 .name {
-    padding-top: 50px;
-    margin-bottom: 30px;
+    padding-top: 58px;
+    margin-bottom: 23px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(1, 1, 1);
@@ -17,68 +17,85 @@ body {
     font-size: 36px;
     font-weight: 700;
 }
-
 .photo {
     text-align: center;
 }
         /*INFO*/
 .work {
-    padding-top: 22px;
-    height: 13px;
+    margin-left: 1px;
+    padding-top: 18px;
     opacity: 0.8;
     color: rgb(31, 31, 31);
     font-family: Arial,sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
-
 .separator_1 {
-    margin: 20px 0;
+    margin: 21px 0;
+}
+.separator_1, .separator_3{
     width: 500px;
     height: 1px;
     opacity: 0.22;
     background-color: rgb(31, 31, 31);
 }
-
 .study {
-    padding-bottom: 25px;
+    margin-top: -3px;
     color: rgb(31, 31, 31);
     font-size: 18px;
     font-weight: 700;
 }
-
 .list {
     list-style-type: disc;
     display: list-item;
-    margin-left: 40px;
+    margin-left: 36px;
     color: rgb(59, 59, 59);
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
+    margin-top: 24px;
 }
-
 li {
     line-height: 18px;
 }
-
-.number, .contact, .feedback, .list, .study {
+.phone{
+    color: rgb(31, 31, 31);
+    font-size: 18px;
+    font-weight: 700;
+}
+.profile{
+    color: rgb(31, 31, 31);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.my_feedback{
+    color: rgb(31, 31, 31);
+    font-size: 18px;
+    font-weight: 700;
+}
+.number, .contact, .feedback, .list, .study, .my_feedback, .phone, .profile {
     font-family: "Myriad Pro", sans-serif;
 }
-
 .number {
-    padding-bottom: 20px;
+    margin-left: 36px;
+    margin-top: 24px;
+    font-size: 14px;
+    color: rgb(31, 31, 31);
 }
-
 .separator_2 {
-    margin: 20px 0;
+    margin: 18px 0;
     width: 500px;
     height: 1px;
     opacity: 0.2;
     background-color: rgb(101, 100, 102);
 }
-
+.separator_3 {
+    margin: 20px 0;
+}
 .contact {
-    margin-left: 40px;
+    margin-top: 24px;
+    margin-left: 36px;
     color: rgb(0, 86, 211);
     font-size: 14px;
     font-weight: 400;
@@ -86,10 +103,13 @@ li {
     text-decoration: underline;
 }
         /* FEEDBACK*/
-.feedback, .number {
-    margin-left: 40px;
+.feedback {
     color: rgb(58, 58, 58);
     font-size: 14px;
     font-weight: 400;
+    margin-top: 24px;
+    margin-left: 37px;
 }
-
+.my_feedback {
+    margin-top: -2px;
+}
