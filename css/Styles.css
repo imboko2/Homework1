@@ -1,5 +1,6 @@
 body {
     background-color: #F3F3F5;
+    font-family: "Myriad Pro", sans-serif;
 }
 .container {
     width: 500px;
@@ -73,9 +74,6 @@ li {
     color: rgb(31, 31, 31);
     font-size: 18px;
     font-weight: 700;
-}
-.number, .contact, .feedback, .list, .study, .my_feedback, .phone, .profile {
-    font-family: "Myriad Pro", sans-serif;
 }
 .number {
     margin-left: 36px;
